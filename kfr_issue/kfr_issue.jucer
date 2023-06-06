@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="a52ySs" name="kfr_issue" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" headerPath="../../../modules/kfr/include"
+              bundleIdentifier="com.refx.kfr" cppLanguageStandard="17">
+  <MAINGROUP id="b1X7Y1" name="kfr_issue">
+    <GROUP id="{42639D59-8AD6-C0F0-10AA-4908F7572349}" name="Source">
+      <GROUP id="{261E3D9D-58B7-72D2-3E3B-7D3D4D3CCDBB}" name="KFR">
+        <GROUP id="{73C5D50D-C1F3-CC52-3315-93126BAA2CA6}" name="kfr">
+          <GROUP id="{EDD711F2-3FED-8DDF-E08C-A6A45CB505E8}" name="base">
+            <GROUP id="{5D9717CE-880E-5932-760E-AE84C4E806C6}" name="impl">
+              <FILE id="iSTrwU" name="static_array.hpp" compile="0" resource="0"
+                    file="../modules/kfr/include/kfr/base/impl/static_array.hpp"/>
+            </GROUP>
+            <FILE id="iwAOtd" name="basic_expressions.hpp" compile="0" resource="0"
+                  file="../modules/kfr/include/kfr/base/basic_expressions.hpp"/>
+            <FILE id="Ue4Imj" name="conversion.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/base/conversion.hpp"/>
+            <FILE id="bTEq9D" name="expression.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/base/expression.hpp"/>
+            <FILE id="hG7BCK" name="filter.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/base/filter.hpp"/>
+            <FILE id="IwZC4a" name="fraction.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/base/fraction.hpp"/>
+            <FILE id="RnGciB" name="generators.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/base/generators.hpp"/>
+            <FILE id="tvV83z" name="handle.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/base/handle.hpp"/>
+            <FILE id="CYHqXf" name="math_expressions.hpp" compile="0" resource="0"
+                  file="../modules/kfr/include/kfr/base/math_expressions.hpp"/>
+            <FILE id="hiuqP8" name="memory.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/base/memory.hpp"/>
+            <FILE id="NGNSUC" name="random.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/base/random.hpp"/>
+            <FILE id="id0G1R" name="random_bits.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/base/random_bits.hpp"/>
+            <FILE id="lwRmvF" name="reduce.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/base/reduce.hpp"/>
+            <FILE id="ezSE0g" name="shape.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/base/shape.hpp"/>
+            <FILE id="bzuheI" name="simd_expressions.hpp" compile="0" resource="0"
+                  file="../modules/kfr/include/kfr/base/simd_expressions.hpp"/>
+            <FILE id="E46xiP" name="small_buffer.hpp" compile="0" resource="0"
+                  file="../modules/kfr/include/kfr/base/small_buffer.hpp"/>
+            <FILE id="saK0eb" name="state_holder.hpp" compile="0" resource="0"
+                  file="../modules/kfr/include/kfr/base/state_holder.hpp"/>
+            <FILE id="WkbNeO" name="tensor.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/base/tensor.hpp"/>
+            <FILE id="VugBRc" name="univector.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/base/univector.hpp"/>
+          </GROUP>
+          <GROUP id="{ACD0CE72-33B4-E756-EB61-334766A0DBFD}" name="cometa">
+            <FILE id="fTNgU2" name="array.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/cometa/array.hpp"/>
+            <FILE id="P5oRbq" name="cstring.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/cometa/cstring.hpp"/>
+            <FILE id="kdpVUd" name="ctti.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/cometa/ctti.hpp"/>
+            <FILE id="t4kmKg" name="function.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/cometa/function.hpp"/>
+            <FILE id="z59cwr" name="memory.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/cometa/memory.hpp"/>
+            <FILE id="Hch4jH" name="named_arg.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/cometa/named_arg.hpp"/>
+            <FILE id="c0Lt1X" name="numeric.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/cometa/numeric.hpp"/>
+            <FILE id="nimpIU" name="range.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/cometa/range.hpp"/>
+            <FILE id="agsBMe" name="result.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/cometa/result.hpp"/>
+            <FILE id="wG8M0P" name="string.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/cometa/string.hpp"/>
+            <FILE id="ekFaZN" name="tuple.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/cometa/tuple.hpp"/>
+          </GROUP>
+          <GROUP id="{743F6C68-0E91-5BB2-9649-E489B3CF1ADC}" name="dft">
+            <GROUP id="{5A62ED65-9423-53E5-0EA5-16A4D2E16CD7}" name="data">
+              <FILE id="xwJQS3" name="bitrev.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dft/data/bitrev.hpp"/>
+              <FILE id="V3qy92" name="sincos.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dft/data/sincos.hpp"/>
+            </GROUP>
+            <GROUP id="{AD972808-23E9-07FF-8FCA-50B34A687CD6}" name="impl">
+              <FILE id="lb1axI" name="bitrev.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dft/impl/bitrev.hpp"/>
+              <FILE id="oLCfoj" name="convolution-impl.cpp" compile="1" resource="0"
+                    file="../modules/kfr/include/kfr/dft/impl/convolution-impl.cpp"/>
+              <FILE id="qCqwXj" name="dft-fft.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dft/impl/dft-fft.hpp"/>
+              <FILE id="bCoAov" name="dft-impl-f32.cpp" compile="1" resource="0"
+                    file="../modules/kfr/include/kfr/dft/impl/dft-impl-f32.cpp"/>
+              <FILE id="ezdevm" name="dft-impl-f64.cpp" compile="1" resource="0"
+                    file="../modules/kfr/include/kfr/dft/impl/dft-impl-f64.cpp"/>
+              <FILE id="XD57bA" name="dft-impl.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dft/impl/dft-impl.hpp"/>
+              <FILE id="szWygI" name="dft-templates.hpp" compile="0" resource="0"
+                    file="../modules/kfr/include/kfr/dft/impl/dft-templates.hpp"/>
+              <FILE id="V0ACYM" name="fft-impl-f32.cpp" compile="1" resource="0"
+                    file="../modules/kfr/include/kfr/dft/impl/fft-impl-f32.cpp"/>
+              <FILE id="WIGrLb" name="fft-impl-f64.cpp" compile="1" resource="0"
+                    file="../modules/kfr/include/kfr/dft/impl/fft-impl-f64.cpp"/>
+              <FILE id="jW37Gg" name="fft-impl.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dft/impl/fft-impl.hpp"/>
+              <FILE id="QPKH7S" name="fft-templates.hpp" compile="0" resource="0"
+                    file="../modules/kfr/include/kfr/dft/impl/fft-templates.hpp"/>
+              <FILE id="TbFIvD" name="ft.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dft/impl/ft.hpp"/>
+            </GROUP>
+            <FILE id="hVpV4F" name="cache.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dft/cache.hpp"/>
+            <FILE id="RgjyYT" name="convolution.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dft/convolution.hpp"/>
+            <FILE id="X7oYwN" name="fft.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dft/fft.hpp"/>
+            <FILE id="tVHvRx" name="reference_dft.hpp" compile="0" resource="0"
+                  file="../modules/kfr/include/kfr/dft/reference_dft.hpp"/>
+          </GROUP>
+          <GROUP id="{6F6C28B2-9D5E-9B49-D687-D36295E30B43}" name="dsp">
+            <GROUP id="{10A1D116-64F5-9A46-36B1-0A7260BD8305}" name="impl">
+              <FILE id="knfkgK" name="dsp-impl.cpp" compile="1" resource="0" file="../modules/kfr/include/kfr/dsp/impl/dsp-impl.cpp"/>
+            </GROUP>
+            <FILE id="Dekdou" name="biquad.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dsp/biquad.hpp"/>
+            <FILE id="qSo1Ze" name="biquad_design.hpp" compile="0" resource="0"
+                  file="../modules/kfr/include/kfr/dsp/biquad_design.hpp"/>
+            <FILE id="d8b8n2" name="dcremove.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dsp/dcremove.hpp"/>
+            <FILE id="DKaTdk" name="delay.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dsp/delay.hpp"/>
+            <FILE id="adWsWE" name="ebu.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dsp/ebu.hpp"/>
+            <FILE id="Dn0yz2" name="fir.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dsp/fir.hpp"/>
+            <FILE id="rUbFbr" name="fir_design.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dsp/fir_design.hpp"/>
+            <FILE id="QmrQEH" name="fracdelay.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dsp/fracdelay.hpp"/>
+            <FILE id="aRUAqy" name="goertzel.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dsp/goertzel.hpp"/>
+            <FILE id="CyMQqp" name="iir_design.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dsp/iir_design.hpp"/>
+            <FILE id="yEo4WW" name="mixdown.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dsp/mixdown.hpp"/>
+            <FILE id="uA7szu" name="oscillators.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dsp/oscillators.hpp"/>
+            <FILE id="xWqeXn" name="sample_rate_conversion.hpp" compile="0" resource="0"
+                  file="../modules/kfr/include/kfr/dsp/sample_rate_conversion.hpp"/>
+            <FILE id="ijnbXJ" name="speaker.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dsp/speaker.hpp"/>
+            <FILE id="Syn65t" name="special.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dsp/special.hpp"/>
+            <FILE id="QwEndc" name="units.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dsp/units.hpp"/>
+            <FILE id="tAcBxq" name="waveshaper.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dsp/waveshaper.hpp"/>
+            <FILE id="nhFjzn" name="weighting.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dsp/weighting.hpp"/>
+            <FILE id="tHhAzr" name="window.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dsp/window.hpp"/>
+          </GROUP>
+          <GROUP id="{046D2B23-2DC0-F139-C1AD-02F41AB7982D}" name="graphics">
+            <GROUP id="{D2F4973B-01F7-AF07-47B9-B5DC1BD0442D}" name="impl">
+              <FILE id="oItAuz" name="scaled.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/graphics/impl/scaled.hpp"/>
+            </GROUP>
+            <FILE id="GtnMYe" name="color.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/graphics/color.hpp"/>
+            <FILE id="FkJ17R" name="geometry.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/graphics/geometry.hpp"/>
+          </GROUP>
+          <GROUP id="{41D8C16A-C30D-CD66-650F-DEB4E51EF705}" name="io">
+            <GROUP id="{859763DD-EDD8-6E97-F714-B8D6099E39AB}" name="dr">
+              <FILE id="wGpIYl" name="dr_flac.h" compile="0" resource="0" file="../modules/kfr/include/kfr/io/dr/dr_flac.h"/>
+              <FILE id="XGeUUH" name="dr_mp3.h" compile="0" resource="0" file="../modules/kfr/include/kfr/io/dr/dr_mp3.h"/>
+              <FILE id="i9Nt1Z" name="dr_wav.h" compile="0" resource="0" file="../modules/kfr/include/kfr/io/dr/dr_wav.h"/>
+              <FILE id="oUcegg" name="README.txt" compile="0" resource="1" file="../modules/kfr/include/kfr/io/dr/README.txt"/>
+            </GROUP>
+            <GROUP id="{048EBDB6-9044-E26F-0E28-B2ABF4AC47DA}" name="impl">
+              <FILE id="HnzXco" name="audiofile-impl.cpp" compile="1" resource="0"
+                    file="../modules/kfr/include/kfr/io/impl/audiofile-impl.cpp"/>
+            </GROUP>
+            <FILE id="owuyHT" name="audiofile.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/io/audiofile.hpp"/>
+            <FILE id="fKIyrF" name="file.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/io/file.hpp"/>
+            <FILE id="RU27eh" name="python_plot.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/io/python_plot.hpp"/>
+            <FILE id="AS2b5h" name="tostring.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/io/tostring.hpp"/>
+          </GROUP>
+          <GROUP id="{D5280768-6421-1677-EE09-643F316A2105}" name="math">
+            <GROUP id="{80987A07-807D-91E6-2B64-BA688A46EF7B}" name="impl">
+              <FILE id="hGuGCz" name="asin_acos.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/math/impl/asin_acos.hpp"/>
+              <FILE id="qzPPiR" name="atan.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/math/impl/atan.hpp"/>
+              <FILE id="FCIcGM" name="gamma.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/math/impl/gamma.hpp"/>
+              <FILE id="Ziuszx" name="hyperbolic.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/math/impl/hyperbolic.hpp"/>
+              <FILE id="JWjatK" name="log_exp.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/math/impl/log_exp.hpp"/>
+              <FILE id="Fni1RR" name="modzerobessel.hpp" compile="0" resource="0"
+                    file="../modules/kfr/include/kfr/math/impl/modzerobessel.hpp"/>
+              <FILE id="GWucGg" name="sin_cos.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/math/impl/sin_cos.hpp"/>
+              <FILE id="YXm9mQ" name="sqrt.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/math/impl/sqrt.hpp"/>
+              <FILE id="fkDlJb" name="tan.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/math/impl/tan.hpp"/>
+            </GROUP>
+            <FILE id="L8Uoof" name="asin_acos.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/math/asin_acos.hpp"/>
+            <FILE id="Vmb8fW" name="atan.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/math/atan.hpp"/>
+            <FILE id="Fh0e16" name="compiletime.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/math/compiletime.hpp"/>
+            <FILE id="BAY9Nn" name="complex_math.hpp" compile="0" resource="0"
+                  file="../modules/kfr/include/kfr/math/complex_math.hpp"/>
+            <FILE id="i2jrmD" name="gamma.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/math/gamma.hpp"/>
+            <FILE id="kk3SMn" name="hyperbolic.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/math/hyperbolic.hpp"/>
+            <FILE id="aA8fMb" name="interpolation.hpp" compile="0" resource="0"
+                  file="../modules/kfr/include/kfr/math/interpolation.hpp"/>
+            <FILE id="zd970i" name="log_exp.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/math/log_exp.hpp"/>
+            <FILE id="d383ps" name="modzerobessel.hpp" compile="0" resource="0"
+                  file="../modules/kfr/include/kfr/math/modzerobessel.hpp"/>
+            <FILE id="Bl9neB" name="sin_cos.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/math/sin_cos.hpp"/>
+            <FILE id="VmStFF" name="sqrt.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/math/sqrt.hpp"/>
+            <FILE id="xKPuQQ" name="tan.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/math/tan.hpp"/>
+          </GROUP>
+          <GROUP id="{13AA9FAD-5880-A542-7787-9B9A160A3981}" name="runtime">
+            <FILE id="CHX50n" name="cpuid.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/runtime/cpuid.hpp"/>
+            <FILE id="AfiIp4" name="cpuid_auto.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/runtime/cpuid_auto.hpp"/>
+          </GROUP>
+          <GROUP id="{29BC925B-753D-A3D1-539A-2AFBDC49530F}" name="simd">
+            <GROUP id="{9473BBA8-CD44-20B5-3225-426F686EEEAE}" name="impl">
+              <FILE id="K2mgiy" name="abs.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/impl/abs.hpp"/>
+              <FILE id="WNUOqz" name="backend.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/impl/backend.hpp"/>
+              <FILE id="V1VXqs" name="backend_clang.hpp" compile="0" resource="0"
+                    file="../modules/kfr/include/kfr/simd/impl/backend_clang.hpp"/>
+              <FILE id="airUkj" name="backend_generic.hpp" compile="0" resource="0"
+                    file="../modules/kfr/include/kfr/simd/impl/backend_generic.hpp"/>
+              <FILE id="rpyJ0s" name="basicoperators_clang.hpp" compile="0" resource="0"
+                    file="../modules/kfr/include/kfr/simd/impl/basicoperators_clang.hpp"/>
+              <FILE id="e1dh7Z" name="basicoperators_complex.hpp" compile="0" resource="0"
+                    file="../modules/kfr/include/kfr/simd/impl/basicoperators_complex.hpp"/>
+              <FILE id="E7B6pr" name="basicoperators_generic.hpp" compile="0" resource="0"
+                    file="../modules/kfr/include/kfr/simd/impl/basicoperators_generic.hpp"/>
+              <FILE id="xauw0u" name="clamp.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/impl/clamp.hpp"/>
+              <FILE id="X9yhvw" name="function.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/impl/function.hpp"/>
+              <FILE id="aVwDcu" name="intrinsics.h" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/impl/intrinsics.h"/>
+              <FILE id="O4SH4G" name="logical.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/impl/logical.hpp"/>
+              <FILE id="bApyvo" name="min_max.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/impl/min_max.hpp"/>
+              <FILE id="PDH9Os" name="operators.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/impl/operators.hpp"/>
+              <FILE id="Up5e67" name="read_write.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/impl/read_write.hpp"/>
+              <FILE id="Ljl4qn" name="round.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/impl/round.hpp"/>
+              <FILE id="Se9UtV" name="saturation.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/impl/saturation.hpp"/>
+              <FILE id="uM2WLM" name="select.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/impl/select.hpp"/>
+              <FILE id="IuDGQe" name="simd.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/impl/simd.hpp"/>
+              <FILE id="J38u0r" name="specialconstants.hpp" compile="0" resource="0"
+                    file="../modules/kfr/include/kfr/simd/impl/specialconstants.hpp"/>
+              <FILE id="fMUmR3" name="specializations.hpp" compile="0" resource="0"
+                    file="../modules/kfr/include/kfr/simd/impl/specializations.hpp"/>
+            </GROUP>
+            <FILE id="PTeLBA" name="abs.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/abs.hpp"/>
+            <FILE id="d7UoII" name="clamp.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/clamp.hpp"/>
+            <FILE id="vg3wbb" name="comparison.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/comparison.hpp"/>
+            <FILE id="sW1VjO" name="complex.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/complex.hpp"/>
+            <FILE id="kWjQnk" name="complex_type.hpp" compile="0" resource="0"
+                  file="../modules/kfr/include/kfr/simd/complex_type.hpp"/>
+            <FILE id="IXkfrw" name="constants.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/constants.hpp"/>
+            <FILE id="AQTuKY" name="digitreverse.hpp" compile="0" resource="0"
+                  file="../modules/kfr/include/kfr/simd/digitreverse.hpp"/>
+            <FILE id="vymiUQ" name="horizontal.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/horizontal.hpp"/>
+            <FILE id="rcDG3b" name="logical.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/logical.hpp"/>
+            <FILE id="w8qWi1" name="mask.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/mask.hpp"/>
+            <FILE id="px1gJn" name="min_max.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/min_max.hpp"/>
+            <FILE id="PC5naI" name="operators.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/operators.hpp"/>
+            <FILE id="VS6Vdp" name="platform.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/platform.hpp"/>
+            <FILE id="iUmc2Z" name="read_write.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/read_write.hpp"/>
+            <FILE id="pd5Fop" name="round.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/round.hpp"/>
+            <FILE id="DNSwCz" name="saturation.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/saturation.hpp"/>
+            <FILE id="nv66Sk" name="select.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/select.hpp"/>
+            <FILE id="yzhEjZ" name="shuffle.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/shuffle.hpp"/>
+            <FILE id="dYzhNl" name="sort.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/sort.hpp"/>
+            <FILE id="NjrzQG" name="types.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/types.hpp"/>
+            <FILE id="zo6JJM" name="vec.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd/vec.hpp"/>
+          </GROUP>
+          <GROUP id="{632924EC-AA22-7970-320B-0E718071DD41}" name="testo">
+            <FILE id="X40AEn" name="assert.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/testo/assert.hpp"/>
+            <FILE id="ZvTGTz" name="comparison.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/testo/comparison.hpp"/>
+            <FILE id="i1R4Wn" name="console_colors.hpp" compile="0" resource="0"
+                  file="../modules/kfr/include/kfr/testo/console_colors.hpp"/>
+            <FILE id="Mxr4wY" name="double_double.hpp" compile="0" resource="0"
+                  file="../modules/kfr/include/kfr/testo/double_double.hpp"/>
+            <FILE id="AUnei6" name="testo.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/testo/testo.hpp"/>
+          </GROUP>
+          <FILE id="swoXNC" name="all.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/all.hpp"/>
+          <FILE id="LRE55p" name="base.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/base.hpp"/>
+          <FILE id="R0oBT4" name="capi.h" compile="0" resource="0" file="../modules/kfr/include/kfr/capi.h"/>
+          <FILE id="FToPrx" name="cident.h" compile="0" resource="0" file="../modules/kfr/include/kfr/cident.h"/>
+          <FILE id="gK7ppa" name="cometa.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/cometa.hpp"/>
+          <FILE id="YcYf8Z" name="config.h" compile="0" resource="0" file="../modules/kfr/include/kfr/config.h"/>
+          <FILE id="WaWifa" name="dft.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dft.hpp"/>
+          <FILE id="ktINQw" name="dsp.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/dsp.hpp"/>
+          <FILE id="w7zMou" name="except.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/except.hpp"/>
+          <FILE id="XxTS06" name="graphics.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/graphics.hpp"/>
+          <FILE id="VemCXz" name="io.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/io.hpp"/>
+          <FILE id="B66mcg" name="kfr.h" compile="0" resource="0" file="../modules/kfr/include/kfr/kfr.h"/>
+          <FILE id="lcRukD" name="math.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/math.hpp"/>
+          <FILE id="lzwRit" name="runtime.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/runtime.hpp"/>
+          <FILE id="UMoBv0" name="simd.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/simd.hpp"/>
+          <FILE id="sU8noL" name="version.hpp" compile="0" resource="0" file="../modules/kfr/include/kfr/version.hpp"/>
+        </GROUP>
+        <FILE id="UcCwRj" name="capi.cpp" compile="1" resource="0" file="../modules/kfr/capi/capi.cpp"/>
+      </GROUP>
+      <FILE id="nk20Ej" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="zuL1TD" name="Data.cpp" compile="0" resource="0" file="Source/Data.cpp"/>
+      <FILE id="LfpWLK" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="puqVCd" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="kfr_issue" osxArchitecture="64BitIntel"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="kfr_issue"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../modules/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../modules/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../modules/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../modules/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../modules/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+</JUCERPROJECT>
